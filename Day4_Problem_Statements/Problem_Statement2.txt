@@ -1,0 +1,26 @@
+Problem Statement : Create an AWS EC2 Instance and run it with GUI.
+
+
+
+
+Answer : Step 1: Create EC2 instance with usual process and run using putty.
+	 Step 2: In Bash, write following commands...
+
+		sudo apt update && sudo apt upgrade
+		sudo sed -i 's/^PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/sshd_config 
+		sudo /etc/init.d/ssh restart 
+label A:	sudo passwd ubuntu 
+		sudo apt install xrdp xfce4 xfce4-goodies tightvncserver 
+		echo xfce4-session> /home/ubuntu/.xsession 
+		sudo cp /home/ubuntu/.xsession /etc/skel 
+		sudo sed -i '0,/-1/s//ask-1/' /etc/xrdp/xrdp.ini 
+		sudo service xrdp restart
+
+	 Step 3: Reboot your OS.
+	 Step 4: Configure putty to Tunnel RDP traffic.
+	 Step 5: Run it.
+	 Step 6: Run Remote Desktop Client and enter your local IP and port number (localhost:port number) and click on connect.
+	 Step 7: Enter your username and password(set using label A) and enjoy gui.
+	 
+	
+	
