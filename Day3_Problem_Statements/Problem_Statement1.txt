@@ -1,0 +1,4 @@
+>>Gedit should not run by icon, it should run only by terminal.
+
+
+Answer : 

@@ -1,0 +1,7 @@
+>>How to update history in .bash_history manually (without logout or reboot).
+
+
+Answer : Step1: Go to Home directory and press ctrl + H key to show hidden files.
+	 Step2: Open .bashrc file and write : shopt -s histappend
+					      PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
+	 Step3:	Save and close file. open bash terminal and check the result.

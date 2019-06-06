@@ -1,0 +1,6 @@
+>>Change history command such that date and time also comes with the previously used commands.
+
+
+Answer : Step1: Go to Home directory and press ctrl + H key to show hidden files.
+	 Step2: Open .bash_profile file and write : export HISTTIMEFORMAT="%d-%m-%y %T "
+	 Step3:	Save and close file. open bash terminal and check the result.

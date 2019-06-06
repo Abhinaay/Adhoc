@@ -1,0 +1,5 @@
+>>Find Number of line count using python.
+
+
+Answer : count = len(open("def.txt").readlines())
+	 print(count)

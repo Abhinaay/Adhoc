@@ -1,0 +1,11 @@
+>> What is the concept of Recycle Bin.
+
+
+Answer : When we delete some data from our hard drive, it goes to recycle bin (if not permanently deleted
+	 using SHIFT + DEL key ). If the size of data exceeds the disk-space allocated to recycle bin
+	 by its respective HDD partition, it gets deleted permanently. 
+	 For every HDD partition, some disk space (around 10% of each HDD partition) is allocated 
+	 to recycle bin for storing the garbage. The size of garbage cannot exceed the 
+	 disk-space alloted by respective partition. If it exceeds, the least recent file 
+	 automatically gets removed from recycle bin i.e. it gets deleted permanently.
+	 We can change the disk-spaces alloted to recycle bin.	  

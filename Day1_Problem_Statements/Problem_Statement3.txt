@@ -1,0 +1,7 @@
+>> Type any command in terminal. It should first show error and then its result.
+
+
+Answer : Step1: Go to Home directory and press ctrl + H to show hidden files.
+	 Step2: Open .bashrc file.
+	 Step3: Write: trap 'echo ERROR!!!' DEBUG
+	 Step4: Save and close the file.

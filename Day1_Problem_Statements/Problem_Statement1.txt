@@ -1,0 +1,6 @@
+>> Why Calender has missing 11 days in September 1752?
+
+
+Answer : In 1752, Britain adopted gregorian calender. Previously julian calender was in use.
+	 To adjust the changes and maintain the dates, 11 days were skipped from September.
+	 Read it in full detail from the url : http://mentalfloss.com/article/51370/why-our-calendars-skipped-11-days-1752

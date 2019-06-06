@@ -1,0 +1,5 @@
+>>Find Number of character count using python.
+
+
+Answer : count=len(open("def.txt").read())
+	 print(count)

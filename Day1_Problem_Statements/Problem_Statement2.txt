@@ -1,0 +1,7 @@
+>> Change monitor display from desktop view to downloads view. 
+
+
+Answer : Step1: Go to Home directory and press ctrl + H to show hidden files.
+	 Step2: Go to .config directory and open user-dirs.dirs file.
+	 Step3: Replace XDG_DESKTOP_DIR="$HOME/Desktop" with XDG_DESKTOP_DIR="$HOME/Downloads".
+	 Step4: Save and close the file and reboot your OS.
