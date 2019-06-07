@@ -1,0 +1,7 @@
+Problem Statement : Add multiple user in a UNIX group using 1 command.
+
+
+
+
+Answer : 
+	gpasswd -M userA,userB,userC mygroup

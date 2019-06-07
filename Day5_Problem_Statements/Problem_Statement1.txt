@@ -1,0 +1,7 @@
+Problem Statement : Find list of members added in a group.
+
+
+
+Answer :$ grep 'grpup-name-here' /etc/group
+	$ grep 'ftponly' /etc/group
+	$ grep -i --color 'ftponly' /etc/group	
